@@ -1,0 +1,29 @@
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+#2bitwise operator
+num = int(input("Enter a number: "))
+if num & 1 == 0:
+     print("Even")
+else:
+     print("odd")
+
+#3 function
+def geetha(num):
+if num%2==0:
+   return "Even"
+return "odd"
+n=int(input("Enter a number:"))
+print(geetha(n))
+
+#4 Using Ternary Operator
+num = int(input("Enter a number: "))
+print("Even") if num%2==0 else print("odd")
+
+#lamda 
+check=lambda x:"Even" if x%2==0 else "odd"
+num = int(input("Enter number: "))
+print(check(num))
