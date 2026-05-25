@@ -1,0 +1,19 @@
+a=int(input("Enter the number:"))
+square=a**2                           // print(a**2) a=9 o/p:81
+print(square)
+
+#2 pow()
+a=int(input("Enter the number:"))
+square=pow(a,2)
+print(square)
+
+#Functions
+def square(num):
+    return num*num
+a=int(input("Enter the number:"))
+print(square(a))
+
+#lambda function
+square=lambda x : x*x
+a=int(input("Enter the number:"))
+print(square(a))
