@@ -1,0 +1,31 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+if a > b:
+    print(a, "is largest")
+else:
+    print(b, "is largest")
+
+#2 ternary
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print(a if a>b else b)
+
+#3 max
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print(max(a,b))
+
+#4 function
+def largest(a,b):
+    if(a>b):
+      return a
+return b
+m=int(input("Enter a first number:"))
+n=int(input("Enter a second number:"))
+print(largest(m,n))
+
+#5
+largest=lambda a,b:a if a>b else b 
+x= int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+print(largest(x,y))
