@@ -1,0 +1,39 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+if a >= b and a >= c:
+    print(a, "is largest")
+elif b >= a and b >= c:
+    print(b, "is largest")
+else:
+    print(c, "is largest")
+
+#2max fun
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+print(max(a, b, c))
+
+#3
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+if a > b:
+    if a > c:
+        print(a, "is largest")
+    else:
+        print(c, "is largest")
+else:
+    if b > c:
+        print(b, "is largest")
+    else:
+        print(c, "is largest")
+
+#4
+def largest(a,b,c):
+    return max(a,b,c)
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+z = int(input("Enter third number: "))
+print(largest(x,y,z))
+
