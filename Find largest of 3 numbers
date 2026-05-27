@@ -37,3 +37,12 @@ y = int(input("Enter second number: "))
 z = int(input("Enter third number: "))
 print(largest(x,y,z))
 
+#5 lambda
+largest = lambda a, b, c: max(a, b, c)
+
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+z = int(input("Enter third number: "))
+
+print(largest(x, y, z))
+
