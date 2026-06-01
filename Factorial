@@ -22,7 +22,7 @@ def fact(n):
 num=int(input("Enter a number:"))
 print(fact(num))
 
-#
+#math.factorial()
 import math
 n = int(input("Enter a number: "))
 print("Factorial =", math.factorial(n))
