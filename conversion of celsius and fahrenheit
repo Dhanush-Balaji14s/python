@@ -1,0 +1,10 @@
+#finding the fahrenheit
+celsius=float(input("Enter a temperature in celsius : "))
+fahrenheit=(celsius*9/5)+32
+print(f"{celsius} degree celsius is equal to {fahrenheit} degree fahrenheit")
+
+#finding the celsius
+fahrenhei=float(input("Enter a temperature in fahrenheit : "))
+celsius=(fahrenheit-32)*5/9
+print(f"{fahrenheit} degree fahrenheit is equal to {celsius} degree celsius")
+  
