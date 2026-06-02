@@ -1,0 +1,21 @@
+num=int(input("Enter a number: "))
+if(num>=0):
+   if(num==0):
+      print("Zero")
+   else:
+      print("positive")
+else:
+    print("Negative")
+
+#2 ternary 
+num=int(input("Enter a number: "))
+print(("positive") if num>=0 else ("negative"))
+
+#if and elif 
+num=int(input("Enter a number: "))
+if num>0:
+    print("positive number")
+elif num<0:
+    print("Negative number")
+else:
+    print("Zero")
