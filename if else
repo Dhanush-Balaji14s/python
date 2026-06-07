@@ -1,0 +1,41 @@
+num=int(input("Enter a number: ")) #positive or negative
+if(num>=0):
+    print(f"{num} is a positive number")
+else:
+    print(f"{num} is a Negative number")
+
+#odd number
+num=int(input("Enter a number: "))
+if(num%2!=0):
+    print(f"{num} is a odd number")
+else:
+    print(f"{num} is a Even number")
+
+#3. Largest of Two Numbers
+a=int(input("Enter a number: "))
+b=int(input("Enter a number: "))
+if(a>b):
+   print("a is Largest number")
+else:
+    print("b is Largest number")
+
+#4. Pass or Fail
+mark=int(input("Enter a mark: "))
+if(mark>35):
+   print("pass")
+else:
+   print("Fail")
+
+#5. Eligible to Vote
+age = int(input("Enter age: "))
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+
+#6.Check Leap Year
+year= int(input("Enter a year: "))
+if(year%400==0) or (year%4==0 and year%100!=0):
+   print("Leap year")
+else:
+   print("Not a Leap year")
