@@ -39,3 +39,43 @@ if(year%400==0) or (year%4==0 and year%100!=0):
    print("Leap year")
 else:
    print("Not a Leap year")
+
+#7.Check the Character Case
+ch=input("Enter a character: ")
+if ch.isupper():
+    print("Uppercase")
+else:
+    print("Lowercase")
+
+#8.Login Check
+password=input("Enter a password:")
+if(password=="Gamma@00"):
+    print("Correct password")
+else:
+    print("Wrong password")
+
+#9.Biggest num among 3 numbers
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+if a>b and a>c:
+    print("Largest:",a)
+else:
+    if b>c:
+          print("Largest:",b)
+    else:
+          print("Largest:",c)
+
+#10.Check Alphabet or Not
+ch = input("Enter a character: ")
+if ch.isalpha():
+    print("Alphabet")
+else:
+    print("Not an Alphabet")
+
+#10.vowel or consonant
+ch=input("Enter a character: ")
+if ch.lower() in "aeiou":
+   print("vowel")
+else:
+   print("consonant")
