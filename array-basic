@@ -1,0 +1,8 @@
+arr=[10,20,30,40,50]
+for i in arr:
+    print(i)           o/p: 10 20 30 40 50 (10 next line 20 vice versa)#new line
+    #print(i,end=" ")  o/p: 10 20 30 40 50
+
+arr=[10,20,30,40,50]
+total=sum(arr)
+print("sum = ",total) # print(f"sum = {total})
