@@ -6,3 +6,8 @@ for i in arr:
 arr=[10,20,30,40,50]
 total=sum(arr)
 print("sum = ",total) # print(f"sum = {total})
+
+#rev array with func
+arr=[10,20,30]
+rev_arr=arr[::-1]
+print(rev_arr)
