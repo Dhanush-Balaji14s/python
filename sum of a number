@@ -1,5 +1,5 @@
 num=input("Enter a number: ")
 sum=0
-for i in num:
+for i in num://num=23 first 2loop then 3 so o/p is 5
     sum += int(i)
-print(sum)
+print(sum) 
