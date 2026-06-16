@@ -13,9 +13,9 @@ else:
 
 #3 function
 def geetha(num):
-if num%2==0:
-   return "Even"
-return "odd"
+   if num%2==0:
+      return "Even"
+   return "odd"
 n=int(input("Enter a number:"))
 print(geetha(n))
 
